@@ -1,0 +1,64 @@
+*.xls*
+*.ppt*
+*.doc*
+*.mdb
+*.accdb
+*.accde
+*.accdr
+*.accdt
+*.accda
+
+
+*/vbaProject.bin
+vbaProject.bin
+
+
+# Excel, Word, PowerPoint temp files
+~$*
+~*.tmp
+*.tmp
+*.bak
+*.backup
+*.log
+
+# Auto-recovery files (Excel, Word)
+*.asd
+*.wbk
+*.xlb
+*.xlk
+
+# Office COM add-in cache
+*.exd
+
+
+*.vbw        # VB6 workspace files
+*.vbp        # VB6 project files (if you export them, remove from ignore)
+
+
+.vscode/
+.idea/
+# Rubberduck, twinBASIC, RD lint logs, etc.
+*.rdl
+RD.xml
+
+
+/dist/
+/build/
+/output/
+/bin/
+/obj/
+
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+Desktop.ini
+
+
+!*.bas
+!*.cls
+!*.frm
+!*.frx
